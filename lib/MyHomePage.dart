@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'firstscreen.dart';
 import 'SignupPage.dart';
 
 class MyApp extends StatelessWidget {
@@ -152,6 +152,30 @@ class _MyHomePageState extends State<MyHomePage> {
                     ); },
                   child: Text(
                     'Register',
+                    style: TextStyle(
+                        color: Colors.green,
+                        fontFamily: 'Montserrat',
+                        fontWeight: FontWeight.bold,
+                        decoration: TextDecoration.underline),
+                  ),
+                )
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  'Continue without Login',
+                  style: TextStyle(fontFamily: 'Montserrat'),
+                ),
+                SizedBox(width: 5.0),
+                InkWell(
+                  onTap: () {
+                    Navigator.push(context, new MaterialPageRoute(
+                        builder: (context) => new FirstScreen())
+                    ); },
+                  child: Text(
+                    'Continue',
                     style: TextStyle(
                         color: Colors.green,
                         fontFamily: 'Montserrat',
