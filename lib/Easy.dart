@@ -15,10 +15,137 @@ class Easy extends StatelessWidget {
   }
 }
 
-
 class EasyStruct extends StatefulWidget {
   @override
   _MyEasyScreenState createState() => _MyEasyScreenState();
 }
 class _MyEasyScreenState extends State<EasyStruct> {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('Data Structures'),
+        backgroundColor: Colors.green,
+      ),
+      body: new Container(
+        padding: new EdgeInsets.all(9.0),
+        child: new Center(
+          child: new Column(
+            children: <Widget>[
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+              new Card(
+                child: new Container(
+                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  child: new Column(
+                    children: <Widget>[
+                      new Text('Dat1', style:
+                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }

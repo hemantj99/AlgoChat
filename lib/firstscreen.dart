@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'Easy.dart';
+import 'Hard.dart';
+import 'Medium.dart';
+
 class firstscreen extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -21,7 +25,6 @@ class FirstScreen extends StatefulWidget {
 }
 
 class _MyFirstScreenState extends State<FirstScreen> {
-
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -29,7 +32,6 @@ class _MyFirstScreenState extends State<FirstScreen> {
         title: new Text('Data Structures'),
         backgroundColor: Colors.green,
       ),
-      //hit Ctrl+space in intellij to know what are the options you can use in flutter widgets
       body: new Container(
         padding: new EdgeInsets.all(9.0),
         child: new Center(
@@ -40,8 +42,14 @@ class _MyFirstScreenState extends State<FirstScreen> {
                   padding: new EdgeInsets.fromLTRB(170.0, 110.0, 170.0, 110.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Easy', style:
-                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(context, new MaterialPageRoute(
+                              builder: (context) => new EasyStruct())
+                          ); },
+                        child: new Text('Easy', style:
+                        TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                      ),
                     ],
                   ),
                 ),
@@ -51,8 +59,14 @@ class _MyFirstScreenState extends State<FirstScreen> {
                   padding: new EdgeInsets.fromLTRB(155.0, 110.0, 155.0, 110.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Medium', style:
-                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(context, new MaterialPageRoute(
+                              builder: (context) => new MediumStruct())
+                          ); },
+                        child: new Text('Medium', style:
+                        TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                      ),
                     ],
                   ),
                 ),
@@ -62,8 +76,14 @@ class _MyFirstScreenState extends State<FirstScreen> {
                   padding: new EdgeInsets.fromLTRB(170.0, 110.0, 170.0, 110.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Hard', style:
-                      TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(context, new MaterialPageRoute(
+                              builder: (context) => new HardStruct())
+                          ); },
+                        child: new Text('Hard', style:
+                        TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                        ),
                     ],
                   ),
                 ),
