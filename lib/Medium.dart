@@ -25,7 +25,7 @@ class _MyMediumScreenState extends State<MediumStruct> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Data Structures'),
+        title: new Text('AlgoChat'),
         backgroundColor: Colors.green,
       ),
       body: new Container(
@@ -35,10 +35,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
             children: <Widget>[
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(165.0, 20.0, 165.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Array', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -46,10 +46,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(140.0, 20.0, 140.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Binary Tree', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -57,10 +57,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(141.0, 20.0, 141.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Linked List', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -68,10 +68,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(105.0, 20.0, 105.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Binary Search Tree', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -79,10 +79,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(165.0, 20.0, 165.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Graph', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -90,10 +90,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(165.0, 20.0, 165.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Stack', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -101,10 +101,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(168.0, 20.0, 168.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Heap', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -112,10 +112,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(163.0, 20.0, 163.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Queue', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -123,10 +123,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(153.0, 20.0, 153.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Hashing', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
@@ -134,10 +134,10 @@ class _MyMediumScreenState extends State<MediumStruct> {
               ),
               new Card(
                 child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 20.0, 170.0, 20.0),
+                  padding: new EdgeInsets.fromLTRB(162.0, 20.0, 162.0, 20.0),
                   child: new Column(
                     children: <Widget>[
-                      new Text('Dat2', style:
+                      new Text('Matrix', style:
                       TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
                     ],
                   ),
