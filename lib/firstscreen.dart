@@ -29,7 +29,7 @@ class _MyFirstScreenState extends State<FirstScreen> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Data Structures'),
+        title: new Text('AlgoChat'),
         backgroundColor: Colors.green,
       ),
       body: new Container(
@@ -37,57 +37,57 @@ class _MyFirstScreenState extends State<FirstScreen> {
         child: new Center(
           child: new Column(
             children: <Widget>[
-              new Card(
-                child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 110.0, 170.0, 110.0),
-                  child: new Column(
-                    children: <Widget>[
-                      InkWell(
-                        onTap: () {
-                          Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => new EasyStruct())
-                          ); },
-                        child: new Text('Easy', style:
-                        TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+              InkWell(
+                  onTap: () {
+                    Navigator.push(context, new MaterialPageRoute(
+                        builder: (context) => new EasyStruct())
+                    ); },
+                  child: new Card(
+                    child: new Container(
+                      padding: new EdgeInsets.fromLTRB(170.0, 110.0, 170.0, 110.0),
+                      child: new Column(
+                        children: <Widget>[
+                          new Text('Easy', style:
+                          TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                        ],
                       ),
-                    ],
-                  ),
-                ),
+                    ),
+                  )
               ),
-              new Card(
-                child: new Container(
-                  padding: new EdgeInsets.fromLTRB(155.0, 110.0, 155.0, 110.0),
-                  child: new Column(
-                    children: <Widget>[
-                      InkWell(
-                        onTap: () {
-                          Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => new MediumStruct())
-                          ); },
-                        child: new Text('Medium', style:
-                        TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+              InkWell(
+                  onTap: () {
+                    Navigator.push(context, new MaterialPageRoute(
+                        builder: (context) => new MediumStruct())
+                    ); },
+                  child: new Card(
+                    child: new Container(
+                      padding: new EdgeInsets.fromLTRB(155.0, 110.0, 155.0, 110.0),
+                      child: new Column(
+                        children: <Widget>[
+                          new Text('Medium', style:
+                          TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                        ],
                       ),
-                    ],
-                  ),
-                ),
+                    ),
+                  )
               ),
-              new Card(
-                child: new Container(
-                  padding: new EdgeInsets.fromLTRB(170.0, 110.0, 170.0, 110.0),
-                  child: new Column(
-                    children: <Widget>[
-                      InkWell(
-                        onTap: () {
-                          Navigator.push(context, new MaterialPageRoute(
-                              builder: (context) => new HardStruct())
-                          ); },
-                        child: new Text('Hard', style:
-                        TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
-                        ),
-                    ],
+              InkWell(
+                    onTap: () {
+                      Navigator.push(context, new MaterialPageRoute(
+                          builder: (context) => new HardStruct())
+                      ); },
+                child: new Card(
+                  child: new Container(
+                    padding: new EdgeInsets.fromLTRB(170.0, 110.0, 170.0, 110.0),
+                    child: new Column(
+                      children: <Widget>[
+                          new Text('Hard', style:
+                          TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+                      ],
+                    ),
                   ),
-                ),
-              )
+                )
+              ),
             ],
           ),
         ),
